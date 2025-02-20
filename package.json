@@ -1,0 +1,32 @@
+{
+  "name": "@yosbany/sgo-sdk",
+  "version": "1.0.0",
+  "description": "Librería de funciones de negocio para Gestión Operativa",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yosbany/sgo-sdk.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "dependencies": {
+    "firebase": "^10.0.0",
+    "react": "^18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "bugs": {
+    "url": "https://github.com/yosbany/sgo-sdk/issues"
+  },
+  "homepage": "https://github.com/yosbany/sgo-sdk#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
