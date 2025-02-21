@@ -1,9 +1,14 @@
 {
   "name": "@yosbany/sgo-sdk",
-  "version": "1.0.4",
+  "version": "1.0.3",
   "description": "Librería de funciones de negocio para Gestión Operativa",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "type": "module",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js", 
+  "exports": {
+    "import": "./dist/index.js",
+    "require": "./dist/index.cjs"
+  },
   "types": "dist/index.d.ts",
   "repository": {
     "type": "git",
@@ -18,17 +23,12 @@
     "react": "^18.0.0"
   },
   "devDependencies": {
-    "@types/react": "^19.0.10",
     "typescript": "^5.0.0"
   },
-  "bugs": {
-    "url": "https://github.com/yosbany/sgo-sdk/issues"
-  },
-  "homepage": "https://github.com/yosbany/sgo-sdk#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+    "clean": "rm -rf dist",
+    "build:cjs": "tsc --outDir dist/cjs --module CommonJS",
+    "build:esm": "tsc --outDir dist/esm --module ESNext",
+    "build": "npm run clean && npm run build:cjs && npm run build:esm"
+  }
 }

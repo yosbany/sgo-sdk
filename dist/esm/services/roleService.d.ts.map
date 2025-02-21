@@ -1,0 +1,1 @@
+{"version":3,"file":"roleService.d.ts","sourceRoot":"","sources":["../../../src/services/roleService.ts"],"names":[],"mappings":"AACA,OAAO,EAAE,IAAI,EAAE,MAAM,gBAAgB,CAAC;AAMtC,eAAO,MAAM,UAAU,QAAa,OAAO,CAAC,IAAI,EAAE,CAGjD,CAAC;AAGF,eAAO,MAAM,UAAU,SAAgB,IAAI,kBAG1C,CAAC;AAGF,eAAO,MAAM,UAAU,OAAc,MAAM,QAAQ,OAAO,CAAC,IAAI,CAAC,kBAE/D,CAAC;AAGF,eAAO,MAAM,UAAU,OAAc,MAAM,kBAE1C,CAAC"}
