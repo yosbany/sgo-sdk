@@ -3,11 +3,9 @@
   "version": "1.0.6",
   "description": "Librería de funciones de negocio para Gestión Operativa",
   "type": "module",
-  "main": "dist/index.cjs",
-  "module": "dist/index.js",
+  "main": "dist/index.js",
   "exports": {
-    "import": "./dist/index.js",
-    "require": "./dist/index.cjs"
+    "import": "./dist/index.js"
   },
   "types": "dist/index.d.ts",
   "repository": {
@@ -27,8 +25,6 @@
   },
   "scripts": {
     "clean": "rm -rf dist",
-    "build:cjs": "tsc --outDir dist/cjs --module CommonJS",
-    "build:esm": "tsc --outDir dist/esm --module ESNext",
-    "build": "npm run clean && npm run build:cjs && npm run build:esm"
+    "build": "tsc --outDir dist --module ESNext"
   }
 }
