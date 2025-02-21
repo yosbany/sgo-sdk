@@ -1,6 +1,6 @@
 {
   "name": "@yosbany/sgo-sdk",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Librería de funciones de negocio para Gestión Operativa",
   "type": "module",
   "main": "dist/index.cjs",
